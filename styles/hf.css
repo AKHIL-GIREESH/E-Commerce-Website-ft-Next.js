@@ -1,0 +1,47 @@
+.Header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:0;
+    padding:0px 30px ;
+    background-color:black;
+    color:white;
+    height:10vh;
+    font-size: 20px;
+}
+
+.Footer{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+    height:10vh;
+    justify-content: space-around;
+}
+.Contact{
+    margin:5px;
+    font-size:25px;
+}
+
+.Links{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    width:300px;
+}
+
+.Link{
+    color:white;
+    font-size:15px;
+}
+
+.Homebutton{
+    cursor: pointer;
+    font-size:25px;
+}
+
+.Cartbutton{
+    cursor: pointer;
+    font-size: 25px;
+}

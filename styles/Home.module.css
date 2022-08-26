@@ -1,0 +1,160 @@
+
+.mainPage{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height:80vh;
+    background-image:linear-gradient(90deg,#6F085A,#C51C53);
+    background-image: url("https://www.teahub.io/photos/full/69-698497_aesthetic-computer-backgrounds-green.png");
+    background-repeat: cover;
+}
+
+.mainContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preViewBox{
+    display:flex;
+    flex-wrap: wrap;
+    width:20vw;
+    height:30vh;
+    margin:10px;
+    color:white;
+    background-color:rgba(256,256,256, 0.2);
+    backdrop-filter:blur(10px);
+    box-shadow:0px 0px 5px white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.preViewBox:hover{
+    box-shadow:0px 5px 20px black;
+}
+
+.itemPageContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:80vh;
+    background-image: url("https://www.teahub.io/photos/full/69-698497_aesthetic-computer-backgrounds-green.png");
+}
+
+.itemContainer{
+    display:flex;
+    flex-direction:column;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    width:60vw;
+    height:60vh;
+    border-radius:15px;
+    background-color:rgba(256,256,256, 0.2);
+    backdrop-filter:blur(10px);
+    box-shadow:0px 0px 5px white;
+}
+
+.itemContainer:hover{
+    box-shadow:0px 5px 20px black;
+}
+
+.imgg{
+    border-radius: 15px;
+}
+
+.inputField{
+    width:50vw;
+    height:5vh;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color:rgba(256,256,256, 0.3);
+    backdrop-filter:blur(20px);
+    box-shadow:0px 0px 5px white;
+    border: 1px white;
+}
+
+.inputField:hover{
+    box-shadow:0px 5px 20px black;
+}
+
+.cartContainer{
+    background-image: url("https://www.teahub.io/photos/full/69-698497_aesthetic-computer-backgrounds-green.png");
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:80vh;
+    width:100vw;
+    color:white;
+    font-size:30px;
+}
+
+.cartItem{
+    display:flex;
+    width:20vw;
+    height:35vh;
+    margin:10px;
+    color:white;
+    background-color:rgba(256,256,256, 0.2);
+    backdrop-filter:blur(10px);
+    box-shadow:0px 0px 5px white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size:15px;
+    cursor: pointer;
+    font-size:16px
+}
+
+.cartItem:hover{
+    box-shadow:0px 5px 20px black;
+}
+
+.loadingPage{
+    width:100vw;
+    height:90vh;
+    font-size:50px;
+    background-image: url("https://www.teahub.io/photos/full/69-698497_aesthetic-computer-backgrounds-green.png");
+    z-index: -2;
+}
+
+.arrowHead{
+    font-size: 80px;
+    color:white;
+    position : relative;
+    cursor: pointer;
+}
+
+.loadingGlass{
+    position : relative;
+    width:50vw;
+    height:90vh;
+    background-color:rgba(0,0,0, 0.2);
+    backdrop-filter:blur(10px);
+    box-shadow:0px 0px 20px black;
+    margin-right:auto;
+
+}
+
+.mainTextContainer{
+    color: white;
+    position : absolute;
+    top:20vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width : 100vw;
+    flex-direction: column;
+}
+
+.addToCart{
+    cursor: pointer;
+}
